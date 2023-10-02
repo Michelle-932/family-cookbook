@@ -76,6 +76,7 @@ Fixes currently being worked on include:
 1. Additional styling
 2. Resolving the dynamic recipe link issue
 3. Dedicated domain name
+4. Featured recipe module on home page displaying unexpected behavior
 
 Our annual book comes out in time for the holidays, so we'll be ready for submissions by 10/31/23.
 
