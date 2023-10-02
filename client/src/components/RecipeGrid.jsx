@@ -9,7 +9,7 @@ function recipegrid() {
         // Step 1: Fetch Recipes
         const fetchRecipes = async () => {
             try {
-                const response = await fetch('http://localhost:8000/recipes'); 
+                const response = await fetch('https://family-cookbook.onrender.com/recipes'); 
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }

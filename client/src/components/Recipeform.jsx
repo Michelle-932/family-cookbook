@@ -50,7 +50,7 @@ function recipeform() {
         e.preventDefault();
     
         try {
-            const response = await axios.post('http://localhost:8000/addrecipe', formData, {
+            const response = await axios.post('https://family-cookbook.onrender.com/addrecipe', formData, {
                 headers: {
                     'Content-Type': 'application/json',
                 },
