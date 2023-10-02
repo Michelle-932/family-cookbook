@@ -8,26 +8,26 @@ import Recipeform from '../components/Recipeform.jsx'
 import Footer from '../components/Footer.jsx'
 
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//     <React.StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <React.StrictMode>
 
-//         <Header />
-//         <SubmitBanner />
-//         <Recipeform />
-//         <Footer />
-  
-//     </React.StrictMode>,
-// )
-
-function addrecipe () {
-    return (
-        <>
         <Header />
         <SubmitBanner />
         <Recipeform />
         <Footer />
-        </>
-    )
-}
+  
+    </React.StrictMode>,
+)
 
-export default addrecipe
+// function addrecipe () {
+//     return (
+//         <>
+//         <Header />
+//         <SubmitBanner />
+//         <Recipeform />
+//         <Footer />
+//         </>
+//     )
+// }
+
+// export default addrecipe

@@ -89,9 +89,9 @@ app.post('/addrecipe', async (req, res) => {
 //API to retrieve all recipes
 app.get('/recipes', async (req, res) => {
     try {
-        console.log('Entered /recipes route')
+        // console.log('Entered /recipes route')
         const recipes = await Recipe.find();
-        console.log('Retrieved recipes:', recipes)
+        // console.log('Retrieved recipes:', recipes)
         res.status(200).json(recipes);
     } catch (error) {
         console.error('Error retrieving recipes:', error)
